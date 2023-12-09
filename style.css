@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 20px;
+  }
+  
+  .container {
+    width: 80vw; /* Largura de 80% da viewport */
+    margin: 0 auto; /* Centralizar o container horizontalmente */
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #formularioTarefa {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  
+  #inputTarefa {
+    flex-grow: 1;
+    padding: 8px;
+  }
+  
+  button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    background-color: #fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between; /* Texto à esquerda e botões à direita */
+    align-items: center;
+  }
+  
+  .textoTarefa {
+    flex-grow: 1; /* Para que o texto ocupe o espaço restante */
+  }
+  
+  .botaoEditar,
+  .botaoExcluir {
+    background-color: #f44336;
+  }
+  
+  .botaoEditar,
+  .botaoExcluir {
+    margin-left: 10px;
+  }
+  
+  .botaoEditar:hover,
+  .botaoExcluir:hover {
+    background-color: #d32f2f;
+  }
+  
